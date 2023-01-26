@@ -22,7 +22,7 @@ st.markdown('''
  Data source: [kaggle](https://www.kaggle.com/datasets/timmate/avocado-prices-2020)
  ''')
 
-avocado = pd.read_csv("avocado.csv")
+avocado = pd.read_csv("Streamlit/avocado.csv")
 
 table = avocado.groupby("type")[['total_volume','average_price']].mean()
 
@@ -61,7 +61,7 @@ if submite:
         img = image_rotate(img)
     st.image(img)
     print(np.shape(img))
-    new_model = tf.keras.models.load_model('model.h5')
+    new_model = tf.keras.models.load_model('Streamlit/model.h5')
     labels = ['비행기', '자동차', '새', '고양이', '사슴', '개', '개구리', '말', '배', '트럭']
     width = 32
     height = 32
