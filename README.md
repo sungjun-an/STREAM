@@ -1,7 +1,7 @@
 # STREAM
 - 이전 프로젝트에서 완성했던 모델이 없어 CIFAR-10을 분류하는 모델 사용
 - 현재 변경하기 버튼을 통해서 이미지 전처리와 동시에 이미지 분류 예측 함
-
+- [STREAMLIT 배포링크](https://sungjun-an-stream-streamlitapp-92sxqn.streamlit.app/)
 ## 완성한 기능
 - 이미지 파일 업로드
 - 이미지 전처리 기능
