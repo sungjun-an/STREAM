@@ -1,6 +1,6 @@
 streamlit
 pandas
 plotly
-PIL
+pillow
 numpy
 tensorflow
